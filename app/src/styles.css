@@ -1,0 +1,125 @@
+.App{
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    text-align: center;
+    color:rgb(25, 25, 51);
+    background-color:blanchedalmond;
+
+    .addHome{
+        padding: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+        background-color: blanchedalmond;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 25px;
+}
+
+.games{
+    display: flex;
+    gap: 100px;
+
+
+    .game{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            background-color: aliceblue;
+            border: 5px black;
+            border-style: groove ridge ridge groove;
+        }
+
+        .gameInfo{
+            width: 275px;
+            height: 300px;
+            background-color: white;
+            padding: 10px;
+            border: 5px black;
+            border-style: groove ridge ridge groove;
+        }
+
+        h2 {
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 32px;
+            color:black;
+        }
+
+        button{
+            padding: 3px 6px;
+            background-color: whitesmoke;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .delete{
+            border: 1px solid;
+            border-color: lightcoral;
+            color: firebrick;
+        }
+
+        .update{
+            border: 1px solid;
+            border-color: slategray;
+            color: slateblue;
+        }
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    input {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid gray;
+    }
+
+    textarea {
+      padding: 10px;
+    }
+
+    button {
+      border: none;
+      padding: 10px;
+      background-color: white;
+      background-color: salmon;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+.newGame {
+      border: none;
+      margin: 10px;
+      padding: 5px;
+      background-color: white;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 30px;
+      border: 1px solid grey;
+  }
